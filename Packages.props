@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <!-- Implicit Package References -->
+    <PackageVersion Include="Microsoft.NETCore.App" Version="[2.0.5]" />
+    <PackageVersion Include="NETStandard.Library" Version="[1.6.1]" />
+
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="[15.5.0]" />
+    <PackageVersion Include="MSTest.TestAdapter" Version="[1.1.18]" />
+    <PackageVersion Include="MSTest.TestFramework" Version="[1.1.18]" />
+    <PackageVersion Include="Newtonsoft.Json" Version="[10.0.1]" />
+    <PackageVersion Include="System.Runtime.Loader" Version="[4.3.0]" />
+
+  </ItemGroup>
+  
+  <ItemGroup Label="Packages to add to all projects" Condition=" '$(IsTraversal)' != 'true' ">
+    <GlobalPackageReference Include="Nerdbank.GitVersioning" Condition=" '$(EnableGitVersioning)' != 'false' " />
+    <PackageVersion Include="Nerdbank.GitVersioning" Version="[2.1.16]" PrivateAssets="All" />
+    
+    <!--
+    <GlobalPackageReference Include="StyleCop.Analyzers" Condition=" '$(EnableStyleCopAnalyzers)' != 'false' " />
+    <PackageVersion Include="StyleCop.Analyzers" Version="[1.0.2]" PrivateAssets="All" />
+    -->
+    
+    <!--
+    <GlobalPackageReference Include="RoslynCodeTaskFactory" Condition=" '$(EnableRoslynCodeTaskFactory)' != 'false' " />
+    <PackageVersion Include="RoslynCodeTaskFactory" Version="[1.2.6]" PrivateAssets="All" />
+    -->
+   
+  </ItemGroup>
+
+</Project>

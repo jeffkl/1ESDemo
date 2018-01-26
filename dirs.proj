@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="MSBuild.Traversal">
+
+  <ItemGroup>
+    <ProjectFile Include="src\dirs.proj" />
+
+    <ProjectFile Include="test\dirs.proj" />
+  </ItemGroup>
+
+</Project>
