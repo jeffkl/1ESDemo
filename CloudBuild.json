@@ -1,0 +1,13 @@
+{
+  "Branch": "master",
+  "EnlistmentRootPaths": {
+    "SourceRootDirs": [
+      "src",
+      "test"
+    ],
+    "VersionGenerationMode": "SkipVersionGeneration"
+  },
+  "MSBuild": {
+    "Version": "15.0"
+  }
+}
