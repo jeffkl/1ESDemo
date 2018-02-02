@@ -1,6 +1,4 @@
 /Restore
-/ConsoleLoggerParameters:Verbosity=Minimal;Summary
-/MaxCpuCount
-/NodeReuse:false
-/BinaryLogger
-/Ignore:.sln
+/clp:v=m;Summary
+/nr:false
+/m

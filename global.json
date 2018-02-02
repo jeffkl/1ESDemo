@@ -1,6 +1,0 @@
-{
-  "msbuild-sdks": {
-    "Microsoft.Build.CentralPackageVersions": "1.0.5-preview",
-    "Microsoft.Build.Traversal": "1.0.2-preview"
-  }
-}
