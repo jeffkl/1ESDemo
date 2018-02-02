@@ -1,5 +1,5 @@
 /Restore
-/ConsoleLoggerParameters:Verbosity=Minimal
+/ConsoleLoggerParameters:Verbosity=Minimal;Summary
 /MaxCpuCount
 /NodeReuse:false
 /BinaryLogger
