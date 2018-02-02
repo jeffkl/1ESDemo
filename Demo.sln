@@ -9,9 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApplication", "src\C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A70EE85F-A304-44AC-A43D-B7FB444AD679}"
 	ProjectSection(SolutionItems) = preProject
-		Directory.Build.props = Directory.Build.props
-		Directory.Build.targets = Directory.Build.targets
-		NuGet.config = NuGet.config
+		dirs.proj = dirs.proj
+		global.json = global.json
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "test\UnitTestProject1\UnitTestProject1.csproj", "{89031881-2115-4A35-A2E4-2FCA4E1FCD5F}"
